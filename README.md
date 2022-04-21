@@ -2,7 +2,7 @@
 Extragerea CNP-ului din identificatorul unic statistic (ISU) folosit de Institutul National de Statistica
 
 # La ce foloseste?
-Institutul National de Statatistica (ISU) centralizeaza datele de rececensamant 2022 folosind Identificatorul Unic Statistic (ISU) ce nu este altceva decat functia `sha1` aplicata pe CNP. Avand in vedere ca se colecteaza sexul, data nasterii, extragerea CNP-ului din ISU devine o problema triviala. Punctul de vedere INS este ca datele sunt 100% sigure fiind "criptate" prin ``sha1``.
+Institutul National de Statatistica (ISU) centralizeaza datele de rececensamant 2022 folosind Identificatorul Unic Statistic (ISU) ce nu este altceva decat functia `sha1` aplicata pe CNP. Avand in vedere ca se colecteaza sexul, data nasterii, extragerea CNP-ului din ISU devine o problema triviala.
 
 # Compilare
 
@@ -26,4 +26,4 @@ CNP-ul folosit in exemplu este cel oferit chiar de INS pentru a testa "algoritmu
 
 # Motivatie
 
-Publicarea acestei vulnerabilitati este necesara pentru ca specialistii INS sa poata cofirma si remedia problema.
+Publicarea acestei vulnerabilitati este necesara pentru ca specialistii INS sa poata confirma si remedia problema.
