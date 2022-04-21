@@ -304,7 +304,7 @@ int main(int argc, char *argv[]) {
                             break;
                         case 2:
                             days = 28;
-                            if ((y % 100) == 0)
+                            if ((y % 4) == 0)
                                 days = 29;
                             break;
                         default:
